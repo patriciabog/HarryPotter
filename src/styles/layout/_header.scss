@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    &__title {
+        font-family: $font-harry;
+        color: #d3a625;
+        text-shadow: 4px 4px #00155b;
+        font-size: 2.5rem;
+    }
+}
+@media all and (min-width: 768px) {
+    .header {
+        &__title {
+            font-size: 4rem;
+        }
+
+    }
+}
