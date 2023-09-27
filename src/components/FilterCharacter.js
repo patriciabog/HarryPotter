@@ -6,7 +6,7 @@ function FilterCharacter ({characterFilter, handleFilterCharacter}) {
   
     return (
         <section className="input">
-          <label className="input__text" htmlFor="name">Search for character:</label>
+          <label className="input__text" htmlFor="name">Search by Character:</label>
           <input 
             className="input__search"
             type="text"

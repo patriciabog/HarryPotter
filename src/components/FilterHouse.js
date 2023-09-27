@@ -4,7 +4,7 @@ function FilterHouse ({handleFilterHouse, houseFilter}) {
     }
     return (
         <section className="search">
-            <label className="search__house" htmlFor="">Select the house:</label>
+            <label className="search__house" htmlFor="">Select by House:</label>
             <select 
                className="search__option"
                typer="search"

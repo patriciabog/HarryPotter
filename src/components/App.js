@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route, matchPath, useLocation } from "react-router-dom";
 import '../styles/App.scss';
-import hogwarts from '../images/hogwarts.jpg';
+import hogwarts from '../images/hogwarts2.jpg';
 import getDataApi from '../services/api';
 import CharacterList from './CharacterList';
 import Filters from './Filters';
